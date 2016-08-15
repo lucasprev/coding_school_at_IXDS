@@ -1,5 +1,5 @@
 # Study Trail
-This page gives on overview of all the topics we have covered and the next topics to come.
+This page gives on overview of all the topics we will cover.
 ## Design Thinking
 * Brainstorming
 * Clustering
@@ -19,43 +19,28 @@ This page gives on overview of all the topics we have covered and the next topic
 [Linux Tutorial](http://ryanstutorials.net/linuxtutorial/)
 
 ## Programming Concepts
-[Object Oriented Programming](http://www.codeproject.com/Articles/22769/Introduction-to-Object-Oriented-Programming-Concep#OOP)
+[Programming Concepts in JavaScript](girldevelopit.github.io/gdi-featured-js-intro/class1.html#/3)
 
-## Ruby
-[Ruby in 100 minutes](http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html)
+## JavaScript
 
-[Ruby in 20 minutes](https://www.ruby-lang.org/en/documentation/quickstart/)
+[JavaScript in 20 minutes](https://learnxinyminutes.com/docs/javascript/)
 
-[Learn Ruby Books](https://drive.google.com/drive/folders/0B2sPywMT0JIoWURQVkZ4TjZOUjg)
+[Learn JavaScript on CodeAcademy](https://www.codecademy.com/learn/javascript)
+    - https://www.codecademy.com/en/tracks/teachyourself
 
-[Learn Ruby the Hard Way](http://learnrubythehardway.org/book/)
+[JavaScript resources on MDN](https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web) - quite dry and technical, but very good
 
-[Ruby for Beginners](http://ruby-for-beginners.rubymonstas.org/index.html)
-
-[List of several other tutorials](http://www.bogotobogo.com/RubyOnRails/RubyOnRails_condition_if_else_Comparison_Logial_Operators.php)
-### Self assessment
-There are several quizzes to test your knowledge of ruby:
-
-* [Variables, Strings, Numbers](http://www.codequizzes.com/learn-ruby/variables-strings-numbers)                             
-* [Arrays, conditionals, loops](  http://www.codequizzes.com/learn-ruby/arrays-conditionals-loops)
-* [Symbols, array methods, hashes](http://www.codequizzes.com/learn-ruby/symbols-array-methods-hashes)
-
-## Rails
-[Rails tutorial](http://www.tutorialspoint.com//ruby-on-rails/index.htm)
+[JavaScript tutorial](http://tutorials.codebar.io/js/lesson1/tutorial.html)
 
 ## Git and GitHub
-[Cheat Sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
-
 [Tutorial for Git Commands](https://try.github.io/levels/1/challenges/1)
+[Cheat Sheet](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 
 ## HTML
 [Cheat Sheet](http://www.simplehtmlguide.com/cheatsheet.php)
-
 [Tutorial](http://www.freecodecamp.com/)
-
 [W3C Tutorial](http://www.w3schools.com/html/)
-
-[JSBin for testing](http://jsbin.com/)
+[JSBin for testing](http://codepen.io/pen/)
 
 ## CSS
 [Cheat Sheet](http://www.lesliefranke.com/files/reference/csscheatsheet.html)

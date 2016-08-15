@@ -1,0 +1,265 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+<div class="regular-header regular-header--new clearfix hide-sm" id="new-header">
+
+    <div class="comp pull-left">
+        <a href="/" class="hdr-btn link-reset belo-container">
+            <i class="icon icon-pos--lower  icon-airbnb-alt h2 show-login"></i>
+            <i class="icon icon-pos--lower  icon-airbnb show-logout"></i>
+        </a>
+    </div>
+    <div class="comp pull-left search-bar-wrapper"><form action="/s" class="search-form" data-reactid=".0"><div class="search-bar" data-reactid=".0.0"><i class="header-icon icon-search-alt-gray search-icon" data-reactid=".0.0.0"></i><label class="screen-reader-only" for="header-search-form" data-reactid=".0.0.1">Where to?</label><input placeholder="Where to?" autocomplete="off" name="location" id="header-search-form" class="location" value="" data-reactid=".0.0.2" type="text"><input name="source" value="hdr" data-reactid=".0.0.3" type="hidden"></div><div id="header-search-settings" class="panel search-settings header-menu" data-reactid=".0.1"><div class="panel-body clearfix basic-settings" data-reactid=".0.1.0"><div class="setting checkin" data-reactid=".0.1.0.0"><label for="header-search-checkin" class="field-label" data-reactid=".0.1.0.0.0"><strong data-reactid=".0.1.0.0.0.0">Check in</strong></label><input id="header-search-checkin" data-field-name="check_in_dates" name="checkin" class="checkin ui-datepicker-target" placeholder="mm/dd/yyyy" data-reactid=".0.1.0.0.1" type="text"></div><div class="setting checkout" data-reactid=".0.1.0.1"><label for="header-search-checkout" class="field-label" data-reactid=".0.1.0.1.0"><strong data-reactid=".0.1.0.1.0.0">Check out</strong></label><input id="header-search-checkout" data-field-name="check_out_dates" class="checkout ui-datepicker-target" name="checkout" placeholder="mm/dd/yyyy" data-reactid=".0.1.0.1.1" type="text"></div><div class="setting guests" data-reactid=".0.1.0.2"><label for="header-search-guests" class="field-label" data-reactid=".0.1.0.2.0"><strong data-reactid=".0.1.0.2.0.0">Guests</strong></label><div class="select select-block" data-reactid=".0.1.0.2.1"><select id="header-search-guests" data-field-name="number_of_guests" name="guests" data-reactid=".0.1.0.2.1.0"><option value="1" data-reactid=".0.1.0.2.1.0.$1">1</option><option value="2" data-reactid=".0.1.0.2.1.0.$2">2</option><option value="3" data-reactid=".0.1.0.2.1.0.$3">3</option><option value="4" data-reactid=".0.1.0.2.1.0.$4">4</option><option value="5" data-reactid=".0.1.0.2.1.0.$5">5</option><option value="6" data-reactid=".0.1.0.2.1.0.$6">6</option><option value="7" data-reactid=".0.1.0.2.1.0.$7">7</option><option value="8" data-reactid=".0.1.0.2.1.0.$8">8</option><option value="9" data-reactid=".0.1.0.2.1.0.$9">9</option><option value="10" data-reactid=".0.1.0.2.1.0.$10">10</option><option value="11" data-reactid=".0.1.0.2.1.0.$11">11</option><option value="12" data-reactid=".0.1.0.2.1.0.$12">12</option><option value="13" data-reactid=".0.1.0.2.1.0.$13">13</option><option value="14" data-reactid=".0.1.0.2.1.0.$14">14</option><option value="15" data-reactid=".0.1.0.2.1.0.$15">15</option><option value="16" data-reactid=".0.1.0.2.1.0.$16">16</option></select></div></div></div><div class="panel-header menu-header normal-line-height" data-reactid=".0.1.1"><small data-reactid=".0.1.1.0"><strong data-reactid=".0.1.1.0.0">Room type</strong></small></div><div class="panel-body" data-reactid=".0.1.2"><div class="space-4" data-reactid=".0.1.2.0"><label class="checkbox menu-item" for="room_type_0" data-reactid=".0.1.2.0.0"><input id="room_type_0" data-room-type="entire_home" name="room_types[]" value="Entire home/apt" data-reactid=".0.1.2.0.0.0" type="checkbox"><i class="icon icon-entire-place horizontal-margin-medium" data-reactid=".0.1.2.0.0.1"></i><span data-reactid=".0.1.2.0.0.2">Entire home/apt</span></label><label class="checkbox menu-item" for="room_type_1" data-reactid=".0.1.2.0.1"><input id="room_type_1" data-room-type="private_home" name="room_types[]" value="Private room" data-reactid=".0.1.2.0.1.0" type="checkbox"><i class="icon icon-private-room horizontal-margin-medium" data-reactid=".0.1.2.0.1.1"></i><span data-reactid=".0.1.2.0.1.2">Private room</span></label><label class="checkbox menu-item" for="room_type_2" data-reactid=".0.1.2.0.2"><input id="room_type_2" data-room-type="shared_room" name="room_types[]" value="Shared room" data-reactid=".0.1.2.0.2.0" type="checkbox"><i class="icon icon-shared-room horizontal-margin-medium" data-reactid=".0.1.2.0.2.1"></i><span data-reactid=".0.1.2.0.2.2">Shared room</span></label></div><button type="submit" class="btn btn-primary btn-block" data-reactid=".0.1.2.1"><i class="icon icon-search" data-reactid=".0.1.2.1.0"></i><span data-reactid=".0.1.2.1.1">Find a place</span></button></div></div></form></div>
+    <div class="comp pull-right show-login">
+        <a class="no-crawl hdr-btn link-reset header-avatar-trigger needsclick" rel="nofollow" href="/dashboard" data-href="/dashboard" data-href-host="/trips">
+            <span class="value_name margin-right--tiny hide-md">Joseph</span>
+            <div class="media-photo media-round user-profile-image header-icon icon-profile-alt-white"><img src="https://a0.muscache.com/im/users/2043948/profile_pic/1431206787/original.jpg?aki_policy=profile_small" alt="" height="28" width="28">
+            </div>
+        </a>
+
+        <div class="panel tooltip-top-right drop-down-menu avatar-tooltip--new">
+            <div class="panel-header no-border hide-lg">
+                <strong><span class="value_name">Joseph</span></strong>
+            </div>
+            <a href="/trips" class="js-your-trips-item panel-body link-reset hover-item no-crawl" data-href="/trips">
+                <div class="hover-item__content">
+                    Your Trips
+                </div>
+            </a>        <a href="/city-hosts?source=hdr" class="hide city-host-button-md panel-body link-reset hover-item">
+            <div class="hover-item__content">
+                City Hosts
+                <img class="beta-badge" src="https://a0.muscache.com/airbnb/static/magical_trips/guest/beta-badge-867496daca1a3046e16da19d5ace2221.png" alt="Beta" height="18">
+            </div>
+        </a>        <a href="/wishlists/my" class="js-wishlists-item panel-body link-reset hover-item no-crawl" data-href="/wishlists/my">
+            <div class="hover-item__content">
+                Wish Lists
+            </div>
+        </a>        <a href="/users/edit" class=" panel-body link-reset hover-item no-crawl" data-href="/users/edit">
+            <div class="hover-item__content">
+                Edit Profile
+            </div>
+        </a>        <a href="/invite?r=3" class="travel-credit-item panel-body link-reset hover-item">
+            <div class="hover-item__content">
+                Referrals
+            </div>
+        </a>        <a href="/users/notifications" class=" panel-body link-reset hover-item no-crawl" data-href="/users/notifications">
+            <div class="hover-item__content">
+                Account Settings
+            </div>
+        </a>        <a href="/business-travel?s=nav" class="business-travel  panel-body link-reset hover-item">
+            <div class="hover-item__content">
+                Business Travel
+            </div>
+        </a>        <a href="/things-to-do" class="js-guidebook-item panel-body link-reset hover-item">
+            <div class="hover-item__content">
+                My Guidebook
+            </div>
+        </a>        <a href="/logout" class=" panel-body link-reset hover-item no-crawl" data-href="/logout">
+            <div class="hover-item__content">
+                Log Out
+            </div>
+        </a>  </div>
+    </div>
+
+
+    <div class="comp pull-right show-logout">
+        <a data-login-modal="" href="/login" data-redirect="redirect_params[action]=show&amp;redirect_params[controller]=homepages" class="hdr-btn link-reset">
+            Log In
+        </a>
+    </div>
+    <div class="comp pull-right show-logout">
+        <a data-signup-modal="" data-header-view="true" href="/signup_login" data-redirect="redirect_params[action]=show&amp;redirect_params[controller]=homepages" class="hdr-btn link-reset">
+            Sign Up
+        </a>
+    </div>
+
+
+
+    <div class="comp pull-right show-travel-credit js-travel-credit-menu-container hide">
+        <a class="needsclick no-crawl hdr-btn link-reset js-travel-credit-comp" href="/invite?r=3" rel="nofollow" data-href="/invite?r=3">
+            <div class="gift-icon-container text-center">
+                <span class="margin-right--tiny hide-md">Credit</span>
+                <i class="header-icon js-travel-credit-icon icon-gift-alt-gray">
+                    <i class="alert-count js-travel-credit-unread-count text-center fade in">1</i>
+                </i>
+            </div>
+        </a>
+
+        <div class="panel tooltip-top-right drop-down-menu travel-credit-dropdown"></div>
+    </div>
+
+
+
+    <div id="js-header-help-menu"><div class="comp pull-right no-border help-trigger-wrapper" data-reactid=".7"><a class="hdr-btn js-help-toggle link-reset needsclick" href="/help" data-reactid=".7.0"><span class="margin-right--tiny hide-md" data-reactid=".7.0.0">Help</span><span data-reactid=".7.0.1">&nbsp;</span><i class="header-icon icon-lifesaver-alt-gray" data-reactid=".7.0.2"></i></a><div class="field-guide panel drop-down-menu" data-reactid=".7.1"><div data-reactid=".7.1.0"><div class="main-content" data-reactid=".7.1.0.1"><div class="text-left search-container" data-reactid=".7.1.0.1.0"><div class="search-input-container" data-reactid=".7.1.0.1.0.0"><div class="search-input-inner-container" data-reactid=".7.1.0.1.0.0.0"><div class="icon-search-container" data-reactid=".7.1.0.1.0.0.0.0"><i class="icon-gray icon icon-search icon-size-2 article-link-icon" data-reactid=".7.1.0.1.0.0.0.0.0"></i></div><input class="search-input" name="q" autocomplete="off" maxlength="1024" value="" placeholder="How can we help you?" data-reactid=".7.1.0.1.0.0.0.1" type="text"></div></div><div class="search-results-container text-dark-gray" data-reactid=".7.1.0.1.0.1"><div class="container_13asejo" data-reactid=".7.1.0.1.0.1.0"><div class="search-results" data-reactid=".7.1.0.1.0.1.0.0"><div data-reactid=".7.1.0.1.0.1.0.0.0"><div class="search-panel-header panel-header no-border" data-reactid=".7.1.0.1.0.1.0.0.0.0">Suggested Articles</div><a href="/help/article/51" class="article-link link-reset hover-item article-link-panel" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/51"><div class="hover-item__content" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/51.0"><div class="col-middle-alt article-link-left" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/51.0.0"><i class="icon article-link-icon icon-light-gray icon-size-2 icon-description" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/51.0.0.0"></i></div><div class="col-middle-alt article-link-right" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/51.0.1">How does Airbnb process payments?</div></div></a><a href="/help/article/126" class="article-link link-reset hover-item article-link-panel" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/126"><div class="hover-item__content" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/126.0"><div class="col-middle-alt article-link-left" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/126.0.0"><i class="icon article-link-icon icon-light-gray icon-size-2 icon-description" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/126.0.0.0"></i></div><div class="col-middle-alt article-link-right" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/126.0.1">What methods of payment does Airbnb accept?</div></div></a><a href="/help/article/125" class="article-link link-reset hover-item article-link-panel" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/125"><div class="hover-item__content" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/125.0"><div class="col-middle-alt article-link-left" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/125.0.0"><i class="icon article-link-icon icon-light-gray icon-size-2 icon-description" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/125.0.0.0"></i></div><div class="col-middle-alt article-link-right" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/125.0.1">How is the price determined for my reservation?</div></div></a><a href="/help/article/450" class="article-link link-reset hover-item article-link-panel" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/450"><div class="hover-item__content" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/450.0"><div class="col-middle-alt article-link-left" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/450.0.0"><i class="icon article-link-icon icon-light-gray icon-size-2 icon-description" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/450.0.0.0"></i></div><div class="col-middle-alt article-link-right" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/450.0.1">What is Verified ID?</div></div></a><a href="/help/article/13" class="article-link link-reset hover-item article-link-panel" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/13"><div class="hover-item__content" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/13.0"><div class="col-middle-alt article-link-left" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/13.0.0"><i class="icon article-link-icon icon-light-gray icon-size-2 icon-description" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/13.0.0.0"></i></div><div class="col-middle-alt article-link-right" data-reactid=".7.1.0.1.0.1.0.0.0.1:$/help/article/13.0.1">How do reviews work?</div></div></a></div></div></div><div class="expandable-indicator" data-reactid=".7.1.0.1.0.1.2"></div></div></div></div><div class="help-link-bottom" data-reactid=".7.1.0.2"><a href="/help" data-prevent-default="true" data-reactid=".7.1.0.2.1"><span data-reactid=".7.1.0.2.1.0">Help Center</span></a></div></div></div></div></div>
+
+
+
+
+    <div class="comp pull-right show-login">
+        <a class="needsclick no-crawl hdr-btn link-reset js-inbox-comp message-link" href="/inbox" data-href="/inbox" rel="nofollow">
+            <div class="inbox-icon-container text-center">
+                <span class="margin-right--tiny hide-md">Messages</span>
+                <i class="js-message-icon header-icon message-icon icon-message-alt-gray">
+                    <i class="alert-count unread-count text-center fade in">1</i>
+                </i>
+            </div>
+        </a>
+
+        <div class="panel tooltip-top-right drop-down-menu notifications-dropdown dark-caret"><div class="notifications-tooltip panel" data-reactid=".5"><div class="panel-header no-border" data-reactid=".5.0"><strong data-reactid=".5.0.0"><span data-reactid=".5.0.0.0">Messages</span><span data-reactid=".5.0.0.1"> (</span><span data-reactid=".5.0.0.2">1</span><span data-reactid=".5.0.0.3">)</span><a href="/inbox" class="link-reset pull-right see-all" data-reactid=".5.0.0.4">View Inbox</a></strong></div><div class="panel-body" data-reactid=".5.1"><ul class="notifications-list list-unstyled" data-reactid=".5.1.0"><li class="hover-item message-row message-row--white" data-reactid=".5.1.0.0:$/z/q/140341815"><div class="media va-container va-container-v va-container-h hover-item__content" data-reactid=".5.1.0.0:$/z/q/140341815.0"><a href="/users/show/15885236" class="link-reset" data-reactid=".5.1.0.0:$/z/q/140341815.0.0"><img class="media-photo media-round pull-left msg-profile-pic no-border" src="https://a0.muscache.com/im/users/15885236/profile_pic/1403501012/original.jpg?aki_policy=profile_small" data-reactid=".5.1.0.0:$/z/q/140341815.0.0.0"></a><div class="va-middle msg-wrapper" data-reactid=".5.1.0.0:$/z/q/140341815.0.1"><div class="row" data-reactid=".5.1.0.0:$/z/q/140341815.0.1.0"><a href="/z/q/140341815" class="link-reset" data-reactid=".5.1.0.0:$/z/q/140341815.0.1.0.0"><div class="col-sm-12" data-reactid=".5.1.0.0:$/z/q/140341815.0.1.0.0.0"><strong class="" data-reactid=".5.1.0.0:$/z/q/140341815.0.1.0.0.0.0">Cosima</strong><div class="text-muted pull-right" data-reactid=".5.1.0.0:$/z/q/140341815.0.1.0.0.0.1">a year ago</div><br data-reactid=".5.1.0.0:$/z/q/140341815.0.1.0.0.0.2"><div class="multiline-ellipsis " data-reactid=".5.1.0.0:$/z/q/140341815.0.1.0.0.0.3">Welcome at my home on saturday. I will be there at 3 pm.
+            Bye,
+            Cosima</div></div></a></div></div></div></li></ul></div><div data-reactid=".5.2"><div class="panel-header no-border" data-reactid=".5.2.0"><strong data-reactid=".5.2.0.0"><span data-reactid=".5.2.0.0.0">Notifications</span><a href="/dashboard?n=3&amp;v=0&amp;m=0" class="link-reset pull-right see-all" data-reactid=".5.2.0.0.1">View Dashboard</a></strong></div><div class="panel-body" data-reactid=".5.2.1"><ul class="notifications-list list-unstyled" data-reactid=".5.2.1.0"><li class="read-all" data-reactid=".5.2.1.0.0"><span data-reactid=".5.2.1.0.0.0"><span data-reactid=".5.2.1.0.0.0.0">There are 3 notifications waiting for you in your </span><span data-reactid=".5.2.1.0.0.0.$0"><a href="/dashboard?n=3&amp;v=0&amp;m=0" class="link-reset underline" data-reactid=".5.2.1.0.0.0.$0.0"><span data-reactid=".5.2.1.0.0.0.$0.0.0">dashboard</span></a></span><span data-reactid=".5.2.1.0.0.0.2">.</span></span></li></ul></div></div></div></div>
+    </div>
+
+
+
+    <div class="comp pull-right show-trips show-login js-trips-menu-container hide %>">
+        <a class="needsclick no-crawl hdr-btn link-reset js-trips-comp trips-comp" href="/trips" rel="nofollow" data-href="/trips">
+            <div class="inbox-icon-container text-center">
+                <span class="margin-right--tiny hide-md">Trips</span>
+                <i class="header-icon js-trips-icon icon-suitcase-gray">
+                    <i class="alert-count js-trips-unread-count text-center fade">0</i>
+                </i>
+            </div>
+        </a>
+
+        <div class="panel tooltip-top-right drop-down-menu trips-dropdown hide">
+        </div>
+    </div>
+
+
+
+
+    <div class="comp pull-right show-host">
+        <a class="needsclick host-icon-wrapper no-crawl hdr-btn link-reset js-host-menu-icon" href="/dashboard" rel="nofollow" data-href="/dashboard">
+    <span class="hide-md margin-right--tiny">
+      Host
+    </span>
+            <i class="header-icon host-icon js-host-icon icon-home-gray">
+                <i class="alert-count js-host-item-count listing-count text-center fade">0</i>
+            </i>
+        </a>
+
+        <div class="panel tooltip-top-right drop-down-menu host-tooltip--new">
+            <div class="panel-header no-border hide-lg">
+                <span><strong>Host</strong></span>
+            </div>
+            <div class="hover-item panel-body relist-your-space hide">
+                <a href="#" class="link-reset click-area">
+                    <div class="cta-container va-container va-container-v">
+                        <div class="va-middle">
+                            <div class="cta-text">
+                                Finish Your Listing
+                            </div>
+                            <div class="cta-text-v3 hide">
+                                Finish Your Listing
+                            </div>
+                            <div class="cta-text-v3-reactivate hide">
+                                Reactivate
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>      <div class="close-button hide">
+                <a href="#" class="alert-close"></a>
+            </div>
+            </div>
+
+            <a href="/dashboard" class=" panel-body link-reset hover-item origin-item js-host-dashboard-link no-crawl" data-href="/dashboard">
+                <div class="hover-item__content">
+                    Dashboard
+                    <i class="alert-count js-pending-request-count--inline text-center fade">0</i>
+                </div>
+            </a>        <a href="/rooms" class=" panel-body link-reset hover-item origin-item js-host-manage-listings-link no-crawl" data-href="/rooms">
+            <div class="hover-item__content">
+                Manage Listings
+                <i class="alert-count listing-count listing-count--inline text-center fade">0</i>
+            </div>
+        </a>        <a href="/rooms/new" class=" panel-body link-reset hover-item origin-item js-host-list-your-space-link">
+            <div class="hover-item__content">
+                List Your Space
+
+            </div>
+        </a>        <a href="/my_reservations" class=" panel-body link-reset hover-item origin-item js-host-my-reservations-link no-crawl" data-href="/my_reservations">
+            <div class="hover-item__content">
+                Your Reservations
+
+            </div>
+        </a>        <a href="/users/transaction_history" class=" panel-body link-reset hover-item origin-item js-host-transaction-history-link no-crawl" data-href="/users/transaction_history">
+            <div class="hover-item__content">
+                Transaction History
+
+            </div>
+        </a>        <a href="/refer?r=41" class=" panel-body link-reset hover-item origin-item hide item-refer-hosts js-host-refer-hosts-link no-crawl" data-href="/refer?r=41">
+            <div class="hover-item__content">
+                Refer Hosts
+                <span class="label label-pink label-new">New</span>
+            </div>
+        </a>        <a href="/users/reviews" class=" panel-body link-reset hover-item origin-item js-host-reviews-link no-crawl" data-href="/users/reviews">
+            <div class="hover-item__content">
+                Reviews
+
+            </div>
+        </a>        <a href="/host-assist" class=" panel-body link-reset hover-item origin-item hide item-host-assist js-host-assist-link no-crawl" data-href="/host-assist">
+            <div class="hover-item__content">
+                Host Assist
+
+            </div>
+        </a>        <a href="/hospitality" class=" panel-body link-reset hover-item origin-item js-host-hospitality-link">
+            <div class="hover-item__content">
+                Hospitality
+
+            </div>
+        </a>  </div>
+    </div>
+
+
+    <div class="comp pull-right city-host-button hide">
+        <a class="hdr-btn link-reset js-host-menu-icon city-host-icon-wrapper" href="/city-hosts?source=hdr">
+            <div>
+                <span>City Hosts</span>
+                <img class="beta-badge" src="https://a0.muscache.com/airbnb/static/magical_trips/guest/beta-badge-867496daca1a3046e16da19d5ace2221.png" alt="Beta" height="15">
+            </div>
+        </a>
+    </div>
+
+    <div class="comp pull-right hide-host not-launched comp-hire-a-host">
+        <a class="hdr-btn link-reset lys-link hire-a-host-link text-white" href="/host/experienced_hosts/about">
+    <span class="btn btn-small btn-hire-a-host">
+  </span></a>
+        <div class="panel tooltip-top-right drop-down-menu hire-a-host-dropdown">
+            <p class="panel-body">
+                <a class="link-reset hire-a-host-tooltip" href="/host/experienced_hosts/about">
+                    Tooltip content!
+                </a>
+            </p>
+        </div>
+    </div>
+
+
+    <div class="comp pull-right hide-host comp-become-a-host">
+        <a class="hdr-btn link-reset lys-link js-become-a-host-link comp-become-a-host__link" href="/rooms/new?from_nav=1&amp;link=1">
+    <span class="btn btn-small btn-become-a-host">
+      Become a Host
+      <i class="icon icon-gift icon-host-referral-gift js-host-referral-gift-icon hide "></i>
+    </span>
+        </a>
+        <div class="panel tooltip-top-right drop-down-menu js-become-a-host-dropdown">
+        </div>
+    </div>
+
+</div>
+<div class="jumbotron">
+    <div class="container">
+        <h1>Find a place to stay.</h1>
+        <p>Rent from people in over 34,000 cities and 192 countries.</p>
+        <a href="#">Learn More</a>
+    </div>
+</div>
+
+</body>
+</html>
