@@ -13,11 +13,15 @@ In this session we will
         `sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl` for linux computers
 * Go over 
     * the command line
-    * git
+    * Git
     * HTML/JS/CSS
-    * clone website, and add name to []. Lesson over
+    * Clone website, and add name to [here](lesson-1-website/index.html). 
+    * Lesson over
 
 Homework:
+
 * Read: (command line is scary) https://www.codecademy.com/blog/72
-* Do: https://www.codecademy.com/en/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command?action=resume
-    1. Introduction to JQuery (Unit 1 - 5 lessons) https://www.codecademy.com/learn/jquery
+* Do: 
+  * [Command line familiarity lesson ] (https://www.codecademy.com/en/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command?action=resume)
+  * [Introduction to JQuery (Unit 1 - 5 lessons) ]  (https://www.codecademy.com/learn/jquery)
+  * Add a project idea to 
