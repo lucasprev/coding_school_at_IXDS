@@ -26,7 +26,7 @@ In this session we will
         * Edit it using sublime text
     * Talk about HTML/JS/CSS - how they fit together
     * Git
-        * Clone website, and add name to [here](https://github.com/josephfinlayson/coding_school_at_IXDS/blob/master/docs/lesson-1-website/index.html). Output can be found here: [here](lesson-1-website/index.html 
+        * Clone website, and add name to [here](https://github.com/josephfinlayson/coding_school_at_IXDS/blob/master/docs/lesson-1-website/index.html). 
     * Project ideas discssion
     * Lesson over
 
