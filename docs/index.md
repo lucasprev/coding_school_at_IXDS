@@ -3,8 +3,7 @@
 <!--## Mon 22-08-2016 - Session 2 -->
 <!--In this session we will-->
 <!--* Set Computers up ----->
-    <!--* [Install Node Version Manager](https://github.com/creationix/nvm#install-script)-->
-
+    <!--* Install Node Version Manager https://github.com/creationix/nvm#install-script-->
 <!--* Learn how to use-->
 
 <!--Homework:-->
