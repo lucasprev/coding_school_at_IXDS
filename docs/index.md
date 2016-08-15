@@ -27,18 +27,18 @@ In this session we will
         * Edit it using sublime text
     * Talk about HTML/JS/CSS - how they fit together
     * Git
-        * Clone website, and add name to [here](lesson-1-website/index.html). 
+        * Clone website, and add name to [here](https://github.com/josephfinlayson/coding_school_at_IXDS/blob/master/docs/lesson-1-website/index.html). Output can be found here: [here](lesson-1-website/index.html 
     * Project ideas discssion
     * Lesson over
 
 Homework:
 
-* Think about a project idea, add it to [here](lesson-1-website/index.html). 
+* Think about a project idea, add it to [here](https://github.com/josephfinlayson/coding_school_at_IXDS/blob/master/docs/lesson-1-website/index.html).  
 * Read: [command line is scary](https://www.codecademy.com/blog/72)
 * Do: 
-  * [Command line familiarity lesson](https://www.codecademy.com/en/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command?action=resume)
-  * [Tutorial for Git Commands](https://try.github.io/levels/1/challenges/1)
-  * [Introduction to JQuery (Unit 1 - 5 lessons)](https://www.codecademy.com/learn/jquery)
+    * [Command line familiarity lesson](https://www.codecademy.com/en/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command?action=resume)
+    * [Tutorial for Git Commands](https://try.github.io/levels/1/challenges/1)
+    * [Introduction to JQuery (Unit 1 - 5 lessons)](https://www.codecademy.com/learn/jquery)
   
 
 
