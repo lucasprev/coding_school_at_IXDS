@@ -1,12 +1,11 @@
 # IXDS Web Class
 
-
-## Mon 22-08-2016 - Session 2 (TBD)
+<!--## Mon 22-08-2016 - Session 2 (TBD)
 In this session we will focus on mixing HTML with jQuery
 
 * Go over homework and any difficulties with the homework
 * What is a function?? Explanation of functions. Whiteboarding functions
-* Set Computers up ---
+* Set Computers up:
     * [NVM](https://github.com/creationix/nvm) 
     
 * Clone special demonstration repository (working together)
@@ -20,10 +19,11 @@ In this session we will focus on mixing HTML with jQuery
     * cool jQuery plugins
 
 * What is an array??? Explanation of arrays. Whiteboarding arrays
-
 Homework: 
-* Array operations in JavaScript??
+
+* Array operations in JavaScript
 * Task: Find a jQuery plugin that you like, demo it to the class
+-->
 
 ## Mon 15-08-2016 - Session 1
 In this session we will
@@ -69,6 +69,7 @@ I'm really looking forward to having you in my class next Monday, and us working
 What's important is that the course will have a homework component, learning programming languages is like learning any language, you need to practice more than once a week to pick it up. This email contains three tasks that I would like you to do before the first lesson so that we all start on the same page, and for Ammar * 2, and Khaled, to refresh their memories
 
 Tasks - please do before Monday 15th:
+
 1. Download and install sublime text https://www.sublimetext.com/3 (10 minutes)
 2. Download and install google chrome https://www.google.com/chrome/browser/desktop/  (10 minutes)
 3. Complete the following courses on code academy (2 hours)
