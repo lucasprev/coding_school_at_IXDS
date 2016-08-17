@@ -1,12 +1,29 @@
 # IXDS Web Class
 
-<!--## Mon 22-08-2016 - Session 2 -->
-<!--In this session we will-->
-<!--* Set Computers up ----->
-    <!--* Install Node Version Manager https://github.com/creationix/nvm#install-script-->
-<!--* Learn how to use-->
 
-<!--Homework:-->
+## Mon 22-08-2016 - Session 2 (TBD)
+In this session we will focus on mixing HTML with jQuery
+
+* Go over homework and any difficulties with the homework
+* What is a function?? Explanation of functions. Whiteboarding functions
+* Set Computers up ---
+    * [NVM](https://github.com/creationix/nvm) 
+    
+* Clone special demonstration repository (working together)
+    * Color things in CSS
+    * Select different things in CSS
+    * Center things
+    * Move boxes around
+* Select things in jQuery
+    * Make things fly around
+    * Make things flash
+    * cool jQuery plugins
+
+* What is an array??? Explanation of arrays. Whiteboarding arrays
+
+Homework: 
+* Array operations in JavaScript??
+* Task: Find a jQuery plugin that you like, demo it to the class
 
 ## Mon 15-08-2016 - Session 1
 In this session we will
@@ -17,8 +34,6 @@ In this session we will
     * Sign up and login to [GitHub](https://github.com/)
     * [Install Command Line tools on OSX](http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/) 
     * [Creating a secure key to access github](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/) -> select your operating system to see full details. (20 minutes)
-    * [launch sublime text from command line](http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/) for OSX computers
-        `sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl` for linux computers
 * Learn how to use
     * the command line to 
         * create a directory called `www` 
@@ -32,14 +47,18 @@ In this session we will
 
 Homework:
 
+* Launch sublime text from the terminal - for Mac users - might be good to ask someone at work to help :)
+    * [launch sublime text from command line](http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/) for OSX computers
+        `sudo ln -s /opt/sublime_text/sublime_text /usr/local/bin/subl` for linux computers
+
 * Think about a project idea, add it to [here](https://github.com/josephfinlayson/coding_school_at_IXDS/blob/master/docs/lesson-1-website/index.html).  
 * Read: [command line is scary](https://www.codecademy.com/blog/72)
 * Do: 
     * [Command line familiarity lesson](https://www.codecademy.com/en/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command?action=resume)
     * [Tutorial for Git Commands](https://try.github.io/levels/1/challenges/1)
     * [Introduction to JQuery (Unit 1 - 5 lessons)](https://www.codecademy.com/learn/jquery)
-  
 
+* Optional, if you think you might find git too hard, try using a client like [Git Kraken](https://www.gitkraken.com/) (crossplatform, looks new and fancy - watch the tutorial video, it helps!) [sourcetree](https://www.sourcetreeapp.com/) (old school, mac only)
 
 
 
