@@ -1,10 +1,6 @@
 # IXDS Web Class
 
-## Mon 22-08-2016 - Session 2
-In this session we will focus on mixing HTML with jQuery
-
-* Go over homework and any difficulties with the homework
-* What is a function?? Explanation of functions. Whiteboarding functions
+<!--* What is a function?? Explanation of functions. Whiteboarding functions
 * Set Computers up:
     * [NVM](https://github.com/creationix/nvm) 
     
@@ -19,13 +15,26 @@ In this session we will focus on mixing HTML with jQuery
     * When you click the button log the input
     * When you click the button, search the Guardian news website
 
-* What is an array??? Explanation of arrays. Whiteboarding arrays
-Homework: 
 
 * [CSS exercises](https://www.codecademy.com/learn/make-a-website)
-* [JavaScript exercises](https://www.codecademy.com/learn/javascript) 1-6 inclusive
 * [Meteor getting started](https://www.meteor.com/tutorials/blaze/creating-an-app)
+* What is an array??? Explanation of arrays. Whiteboarding arrays
 
+-->
+
+## Mon 22-08-2016 - Session 2
+In this session we will focus on `jQuery
+
+* Go over homework and any difficulties with the homework
+
+Homework: 
+
+* [Command line familiarity lesson](https://www.codecademy.com/en/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command?action=resume)
+* [Tutorial for Git Commands](https://try.github.io/levels/1/challenges/1)
+* [Introduction to JQuery (Unit 1 - 5 lessons)](https://www.codecademy.com/learn/jquery)
+* [JavaScript exercises](https://www.codecademy.com/learn/javascript) 1-3 inclusive
+ 
+ 
 
 ## Session 1 homework tricky parts:
 
