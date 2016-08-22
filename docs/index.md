@@ -23,7 +23,7 @@
 -->
 
 ## Mon 22-08-2016 - Session 2
-In this session we will focus on `jQuery
+In this session we will focus on jQuery
 
 * Go over homework and any difficulties with the homework
 
@@ -34,13 +34,13 @@ Homework:
 * [Introduction to JQuery (Unit 1 - 5 lessons)](https://www.codecademy.com/learn/jquery)
 * [JavaScript exercises](https://www.codecademy.com/learn/javascript) 1-3 inclusive
  
- 
-
-## Session 1 homework tricky parts:
+ In this homework you might find the following particularly tricky:
 
 * [complicated CSS selectors](https://www.codecademy.com/courses/web-beginner-en-GfjC6/0/3?curriculum_id=50a3fad8c7a770b5fd0007a1#)
-* [what the hell is this??](https://www.codecademy.com/en/courses/web-beginner-en-GfjC6/1/5?curriculum_id=50a3fad8c7a770b5fd0007a1). Also talk abot `arguments`
+* [what the hell is `this`?](https://www.codecademy.com/en/courses/web-beginner-en-GfjC6/1/5?curriculum_id=50a3fad8c7a770b5fd0007a1). Also talk abot `arguments`
 * [Pay attention to CSS](https://www.codecademy.com/en/courses/web-beginner-en-v6phg/1/2?curriculum_id=50a3fad8c7a770b5fd0007a1)
+
+Let me know if you have any difficulty!
 
 ## Mon 15-08-2016 - Session 1
 In this session we will
