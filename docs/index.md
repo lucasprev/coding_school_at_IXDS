@@ -1,6 +1,6 @@
 # IXDS Web Class
 
-<!--## Mon 22-08-2016 - Session 2 (TBD)
+## Mon 22-08-2016 - Session 2
 In this session we will focus on mixing HTML with jQuery
 
 * Go over homework and any difficulties with the homework
@@ -8,22 +8,30 @@ In this session we will focus on mixing HTML with jQuery
 * Set Computers up:
     * [NVM](https://github.com/creationix/nvm) 
     
-* Clone special demonstration repository (working together)
-    * Color things in CSS
-    * Select different things in CSS
-    * Center things
-    * Move boxes around
-* Select things in jQuery
-    * Make things fly around
-    * Make things flash
-    * cool jQuery plugins
+* Clone special demonstration repository (working together). 
+    * Write some HTML
+        * Create an image
+        * Create a title
+        * Create a button
+        * Create an input
+* jQuery Fancy things
+    * When you click the button log to the console
+    * When you click the button log the input
+    * When you click the button, search the Guardian news website
 
 * What is an array??? Explanation of arrays. Whiteboarding arrays
 Homework: 
 
-* Array operations in JavaScript
-* Task: Find a jQuery plugin that you like, demo it to the class
--->
+* [CSS exercises](https://www.codecademy.com/learn/make-a-website)
+* [JavaScript exercises](https://www.codecademy.com/learn/javascript) 1-6 inclusive
+* [Meteor getting started](https://www.meteor.com/tutorials/blaze/creating-an-app)
+
+
+## Session 1 homework tricky parts:
+
+* [complicated CSS selectors](https://www.codecademy.com/courses/web-beginner-en-GfjC6/0/3?curriculum_id=50a3fad8c7a770b5fd0007a1#)
+* [what the hell is this??](https://www.codecademy.com/en/courses/web-beginner-en-GfjC6/1/5?curriculum_id=50a3fad8c7a770b5fd0007a1). Also talk abot `arguments`
+* [Pay attention to CSS](https://www.codecademy.com/en/courses/web-beginner-en-v6phg/1/2?curriculum_id=50a3fad8c7a770b5fd0007a1)
 
 ## Mon 15-08-2016 - Session 1
 In this session we will
