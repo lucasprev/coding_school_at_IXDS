@@ -5,7 +5,7 @@
 
 <!--What is a function?? Explanation of functions. Whiteboarding functions-->
     
-* Clone special demonstration repository (working together). 
+* Clone [special demonstration repository](https://github.com/josephfinlayson/learning-to-ajax) (working together). 
     * Write some HTML & CSS
         * Make it look a bit better
         * Create an image
@@ -17,19 +17,35 @@
         * Create a button that when click triggers the request to the guardian
         * Create an input when clicked searches the guardian for particular info
         
-* Set Computers up:
+<!--* Set Computers up:
     * [NVM](https://github.com/creationix/nvm) 
 
 * If we have extra time
     * [Meteor getting started](https://www.meteor.com/tutorials/blaze/creating-an-app)
-    * What is an array??? Explanation of arrays. Whiteboarding arrays
+    * What is an array??? Explanation of arrays. Whiteboarding arrays-->
 
 
 #### Homework:
 
+* Clone [special demonstration repository](https://github.com/josephfinlayson/learning-to-ajax) and open index.html in the browser, and the folder in sublime text. Look at `main.js` and `my-styles.css`
+* Using guardian data, add more of it to the HTML page by modifying addArticleToPage function, (use the body field, and the trail text especially) 
+for example, add a new line that says: `$('.main').append('<div>' + article.body + '</div>')` on line 15
 
-* Read first 2 chapters of [Eloquent JavaScript](http://eloquentjavascript.net), and do exercises
-* Extra credit: [CSS exercises](https://www.codecademy.com/learn/make-a-website)
+* Do the [CSS exercises](https://www.codecademy.com/learn/make-a-website)
+* Make the webpage look like a real article, that you see on the guardian. If you need extra divs to make it easier to style, you can write more complex jQuery to nest certain styles
+
+```s
+
+    $('.main').append(
+    '<div class="my-article"> ' +
+        <h2 class="my-title">' + article.webTitle + '</h2>' +
+        '<p>'+ article.body +'</p>'
+     + </div>')
+
+```
+
+* Add the styles to `my-styles.css`
+* Extra credit: Read first 2 chapters of [Eloquent JavaScript](http://eloquentjavascript.net), and do exercises
 
 
 ## Mon 22-08-2016 - Session 2
