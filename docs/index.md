@@ -1,33 +1,43 @@
 # IXDS Web Class
 
-<!--* What is a function?? Explanation of functions. Whiteboarding functions
-* Set Computers up:
-    * [NVM](https://github.com/creationix/nvm) 
+
+## Mon 29-08-2016 - Session 3
+
+<!--What is a function?? Explanation of functions. Whiteboarding functions-->
     
 * Clone special demonstration repository (working together). 
-    * Write some HTML
+    * Write some HTML & CSS
+        * Make it look a bit better
         * Create an image
-        * Create a title
-        * Create a button
-        * Create an input
-* jQuery Fancy things
-    * When you click the button log to the console
-    * When you click the button log the input
-    * When you click the button, search the Guardian news website
+        * Create a description
+      
+    * Write some javascript to create interactivity       
+        * When you click the button log to the console
+        * When you click the button log the input
+        * Create a button that when click triggers the request to the guardian
+        * Create an input when clicked searches the guardian for particular info
+        
+* Set Computers up:
+    * [NVM](https://github.com/creationix/nvm) 
+
+* If we have extra time
+    * [Meteor getting started](https://www.meteor.com/tutorials/blaze/creating-an-app)
+    * What is an array??? Explanation of arrays. Whiteboarding arrays
 
 
-* [CSS exercises](https://www.codecademy.com/learn/make-a-website)
-* [Meteor getting started](https://www.meteor.com/tutorials/blaze/creating-an-app)
-* What is an array??? Explanation of arrays. Whiteboarding arrays
+#### Homework:
 
--->
+
+* Read first 2 chapters of [Eloquent JavaScript](http://eloquentjavascript.net), and do exercises
+* Extra credit: [CSS exercises](https://www.codecademy.com/learn/make-a-website)
+
 
 ## Mon 22-08-2016 - Session 2
 In this session we will focus on jQuery
 
 * Go over homework and any difficulties with the homework
 
-Homework: 
+#### Homework:
 
 * [Command line familiarity lesson](https://www.codecademy.com/en/courses/learn-the-command-line/lessons/navigation/exercises/your-first-command?action=resume)
 * [Tutorial for Git Commands](https://try.github.io/levels/1/challenges/1)
@@ -62,7 +72,7 @@ In this session we will
     * Project ideas discssion
     * Lesson over
 
-Homework:
+#### Homework:
 
 * Launch sublime text from the terminal - for Mac users - might be good to ask someone at work to help :)
     * [launch sublime text from command line](http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/) for OSX computers
