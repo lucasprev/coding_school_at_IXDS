@@ -34,13 +34,13 @@ for example, add a new line that says: `$('.main').append('<div>' + article.body
 * Do the [CSS exercises](https://www.codecademy.com/learn/make-a-website)
 * Make the webpage look like a real article, that you see on the guardian. If you need extra divs to make it easier to style, you can write more complex jQuery to nest certain styles
 
-```s
+```javascript
 
     $('.main').append(
     '<div class="my-article"> ' +
-        <h2 class="my-title">' + article.webTitle + '</h2>' +
-        '<p>'+ article.body +'</p>'
-     + </div>')
+        '<h2 class="my-title">' + article.webTitle + '</h2>' +
+        '<p>'+ article.body + '</p>' +
+     '</div>')
 
 ```
 
