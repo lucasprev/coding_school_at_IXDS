@@ -1,4 +1,56 @@
+    <!--* Change image every time page is refreshed
+    * Change quote every time page is refreshed
+    * Write some javascript to create interactivity       
+    * When you click the button log to the console
+    * When you click the button log the input
+    * Create a button that when click triggers new quote
+    * Create a button that triggers new image -->  
+    
 # IXDS Web Class
+
+## Mon 05-09-2016 - Session 5 
+
+Lesson plan:
+
+* Last week we created a full screen image from the NASA API and overlaid a quote from shakespeare from the wikiquote API. 
+* Recap last week, someone to demonstrate what they've done
+* Review chapter two of [Eloquent Javascript](http://eloquentjavascript.net/02_program_structure.html#program_structure)
+* Git: Create two repositories
+    1. Mars Rover repo- GitHub Pages
+    2. Eloquent JS homework - put it in slack so I can check homework
+    
+* Then we're going to revisit their project ideas ( https://josephfinlayson.github.io/coding_school_at_IXDS/lesson-1-website/ ) and work out if any of them are feasible to implement.
+
+#### Homework:
+* Eloquent JS chap 3
+
+## Mon 05-09-2016 - Session 4 - shakespeare on mars
+
+Lesson plan:
+
+* Recap last week, someone to demonstrate what they've done
+* Javascript [data types](http://www.w3schools.com/js/js_datatypes.asp)
+    * Array is like this `["one_thing", "another_thing"]`
+    * Object is like this `{key: "value", myFavoriteFood: "potato"}`
+    
+* Clone [special demonstration repository](https://github.com/josephfinlayson/learning-to-ajax) (working together). 
+    * Create image and quote in middle of index.html
+      
+####Homework:
+
+* Using jQuery, change the text of the page to be that of a quote with the `getShakespeareQuote` function
+* Using jQuery, change the image of the page to be that of something in mars with the `getRoverImage` function
+* [eloquent js chapter 2](http://eloquentjavascript.net/02_program_structure.html#program_structure) with exercises
+    * Next week we will go over these exercises so make sure you do them
+
+
+<!--* Set Computers up:
+    * [NVM](https://github.com/creationix/nvm) 
+
+* If we have extra time
+    * [Meteor getting started](https://www.meteor.com/tutorials/blaze/creating-an-app)
+    * What is an array??? Explanation of arrays. Whiteboarding arrays -->
+
 
 
 ## Mon 29-08-2016 - Session 3
