@@ -1,11 +1,17 @@
-    <!--* Change image every time page is refreshed
+
+<!-- * Change image every time page is refreshedg
     * Change quote every time page is refreshed
     * Write some javascript to create interactivity       
     * When you click the button log to the console
     * When you click the button log the input
     * Create a button that when click triggers new quote
-    * Create a button that triggers new image -->  
+    * Create a button that triggers new image 
     
+            2. Eloquent JS homework - put it in slack so I can check homework
+
+    -->  
+
+
 # IXDS Web Class
 
 ## Mon 05-09-2016 - Session 5 
@@ -15,14 +21,22 @@ Lesson plan:
 * Last week we created a full screen image from the NASA API and overlaid a quote from shakespeare from the wikiquote API. 
 * Recap last week, someone to demonstrate what they've done
 * Review chapter two of [Eloquent Javascript](http://eloquentjavascript.net/02_program_structure.html#program_structure)
-* Git: Create two repositories
-    1. Mars Rover repo- GitHub Pages
-    2. Eloquent JS homework - put it in slack so I can check homework
-    
-* Then we're going to revisit their project ideas ( https://josephfinlayson.github.io/coding_school_at_IXDS/lesson-1-website/ ) and work out if any of them are feasible to implement.
+* Git: Create Mars Rover repo on GitHub Pages
+* Then we're going to revisit their [project ideas](https://josephfinlayson.github.io/coding_school_at_IXDS/lesson-1-website/) and work out if any of them are feasible to implement.
 
 #### Homework:
-* Eloquent JS chap 3
+
+* Look over the code you did in the lesson, Do you understand it? Write down some questions you have for the next lesson. Can you improve it now? Fix the changes and push to github (Do not spend more than 1 hour on this)
+* Read and do exercises of chapter two of [Eloquent Javascript](http://eloquentjavascript.net/02_program_structure.html#program_structure)
+    Find a way of getting exercises to me when you're done. 
+    **Extra credit:** is putting it on github
+* Choose a [project ideas](https://josephfinlayson.github.io/coding_school_at_IXDS/lesson-1-website/) , and write in a detailed fashion how you will make it happen, then **post on slack** when you're done
+
+Example for the project idea _'App that can read blog articles out loud.'_;
+
+> There is a website with a single input box, that is centered inside the screen, below it is a button which says 'play', which is greyed out. I paste a web address into the input box, then the button is not greyed out any more. If I click the play button, the play button changes it's text and says stop. It starts playing the audio of the blog article. if I click the stop button the audio stops playing, and the stop button changes it's text to say play. 
+
+* **Extra credit only if you want to and have the time** Do as much of your description as you can
 
 ## Mon 05-09-2016 - Session 4 - shakespeare on mars
 
