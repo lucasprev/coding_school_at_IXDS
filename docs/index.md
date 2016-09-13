@@ -27,10 +27,10 @@ Lesson plan:
 #### Homework:
 
 * Look over the code you did in the lesson, Do you understand it? Write down some questions you have for the next lesson. Can you improve it now? Fix the changes and push to github (Do not spend more than 1 hour on this)
-* Read and do exercises of chapter two of [Eloquent Javascript](http://eloquentjavascript.net/02_program_structure.html#program_structure)
+* **Read and do exercises of chapter two** of [Eloquent Javascript](http://eloquentjavascript.net/02_program_structure.html#program_structure)
     Find a way of getting exercises to me when you're done. 
     **Extra credit:** is putting it on github
-* Choose a [project ideas](https://josephfinlayson.github.io/coding_school_at_IXDS/lesson-1-website/) , and write in a detailed fashion how you will make it happen, then **post on slack** when you're done
+* Choose a [project idea](https://josephfinlayson.github.io/coding_school_at_IXDS/lesson-1-website/) , and write in a detailed fashion how you will make it happen, then **post on slack** when you're done
 
 Example for the project idea _'App that can read blog articles out loud.'_;
 
