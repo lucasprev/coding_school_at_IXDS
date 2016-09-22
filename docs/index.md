@@ -14,7 +14,28 @@
 
 # IXDS Web Class
 
-## Mon 05-09-2016 - Session 5 
+## Mon 19-09-2016 - Session 6
+
+Lesson plan:
+
+* Review chapter two of [Eloquent Javascript](http://eloquentjavascript.net/02_program_structure.html#program_structure)
+
+#### Homework:
+
+* **Read and do exercises of chapter three** of [Eloquent Javascript](http://eloquentjavascript.net/03_functions.html)
+    Find a way of getting exercises to me when you're done. 
+    **Extra credit:** is putting it on github
+* Choose a [project idea](https://josephfinlayson.github.io/coding_school_at_IXDS/lesson-1-website/) , and write in a detailed fashion how you will make it happen, then **post on slack** when you're done
+
+Example for the project idea _'App that can read blog articles out loud.'_;
+
+> There is a website with a single input box, that is centered inside the screen, below it is a button which says 'play', which is greyed out. I paste a web address into the input box, then the button is not greyed out any more. If I click the play button, the play button changes it's text and says stop. It starts playing the audio of the blog article. if I click the stop button the audio stops playing, and the stop button changes it's text to say play. 
+
+* **Extra credit only if you want to and have the time** Do as much of your description as you can
+
+
+
+## Mon 12-09-2016 - Session 5 
 
 Lesson plan:
 
