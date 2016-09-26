@@ -1,0 +1,799 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Program Structure</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="reveal-js/css/reveal.css">
+		<link rel="stylesheet" href="reveal-js/css/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal-js/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal-js/css/print/pdf.css' : 'reveal-js/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+<style>
+.reveal pre code { max-height: 800px; }
+</style>
+
+		<!--[if lt IE 9]>
+		<script src="reveal-js/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+
+			<div class="slides">
+
+
+
+
+
+
+
+
+
+				<section>
+					<h1>Program Structure</h1>
+					<h3>Statements / Variables / Control flow / Looping!</h3>
+					<p>
+                    Let's get started!
+					</p>
+
+                    <aside class="notes">
+                        <pre>
+- Expressions and statements
+- Variables
+
+
+- The environment
+- Functions
+- The console.log function
+- Return values
+- Prompt and confirm
+
+
+- Control flow
+- Conditional execution
+- While and do loops
+- For loops
+- Breaking out of a loop
+
+
+- Updating variables succinctly
+- Dispatching on a value with switch
+
+- Keywords and Reserved words
+
+- Indenting code
+- Capitalization
+- Comments
+                        </pre>
+
+
+                    </aside>
+
+                </section>
+
+
+
+
+				<section>
+					<h3>Expressions! Sub expressions!</h3>
+					<p>
+                    Let's calculate the number of seconds in a year, and average seconds per month!
+                    </p>
+                    <p>
+                    First version. Two expressions, neither does anything:
+					</p>
+
+                    <pre><code data-trim data-noescape class="javascript">
+365 * 24 * 60 * 60;
+365 * 24 * 60 * 60 / 12;
+                    </code></pre>
+
+
+                    <aside class="notes">
+                        Highlight the computer does them one after another!
+                    </aside>
+
+                </section>
+
+
+
+
+
+
+
+
+
+				<section>
+                    <p>
+Second version. Include the numbers in strings (sub-expressions), still just expressions, so they don't do anything:
+					</p>
+
+                    <pre><code data-trim  class="javascript" data-noescape>
+"There are (usually) " + (365 * 24 * 60 * 60) + " seconds in a year!";
+
+"There is (usually) on average " + (365 * 24 * 60 * 60 / 12) + " seconds per month!";
+                    </code></pre>
+
+
+                    <aside class="notes">
+                        Highlight the computer does them one after another!
+                    </aside>
+
+                </section>
+
+
+
+
+
+
+
+
+
+
+
+				<section>
+                    <h3>Statements!</h3>
+                    <p>
+Third version. Now, two statements. Each prints out one of the numbers:
+					</p>
+
+                    <pre><code data-trim class="javascript" data-noescape>
+console.log("There are (usually) " + (365 * 24 * 60 * 60) + " seconds in a year!");
+
+console.log("There is (usually) on average " + (365 * 24 * 60 * 60 / 12) + " seconds per month!");
+                    </code></pre>
+
+
+                    <aside class="notes">
+                        Highlight the computer does them one after another!
+                    </aside>
+
+                </section>
+
+
+
+
+
+
+
+
+
+
+				<section>
+                    <h3>Variables!</h3>
+                    <p>
+Makes it easier to see what's going on, even when the values don't change:
+					</p>
+
+                    <pre><code data-trim class="javascript" data-noescape>
+var days_per_year = 365;
+var hours_per_year = days_per_year * 24; 
+var minutes_per_year = hours_per_year * 60;
+var seconds_per_year = minutes_per_year * 60;
+var seconds_per_month = seconds_per_year / 12;
+
+console.log("There are (usually) " + seconds_per_year + " seconds in a year!");
+console.log("There is (usually) on average " + seconds_per_month + " seconds per month!");
+                    </code></pre>
+
+
+                    <aside class="notes">
+Carefully point out that the variables can be used as expressions!
+                    </aside>
+
+                </section>
+
+
+
+
+
+
+
+
+
+				<section>
+                    <h3>Pop Quiz!</h3>
+                    <p>
+What happens to `a` here? What happens to `b`?
+					</p>
+
+                    <pre><code data-trim class="javascript" data-noescape>
+var a = 10;
+var b = a;
+b = b + 1;
+
+console.log('a is ' + a);
+console.log('b is ' + b);
+                    </code></pre>
+
+                    <pre class="fragment"><code data-trim class="javascript" data-noescape>
+a is 10
+b is 11
+                    </code></pre>
+
+                        <p class="fragment">
+                        <strong>a</strong> is unchanged!<br>
+                        Variables just "point" to the value! <br>The third line makes b point to something new, doesn't change the thing it pointed to before!
+                        </p>
+
+                    <aside class="notes">
+Carefully point out that the variables can be used as expressions, even to calculate their own next value!
+                    </aside>
+
+                </section>
+
+
+
+
+
+
+
+
+				<section>
+					<h3>Capitalization!</h3>
+					<p>
+                    Personal taste, but should always be easy to read.
+					</p>
+
+                    <pre><code data-trim class="javascript" data-noescape>
+var days_per_year = 365;
+
+var daysPerYear = 365;
+
+var daysperyear = 365; // <- BAD!
+                    </code></pre>
+
+
+
+                    <aside class="notes">
+                    </aside>
+
+                </section>
+
+
+				<section>
+					<h3>Comments!</h3>
+					<p>
+                    Two types:
+					</p>
+
+                    <pre><code data-trim class="javascript" data-noescape>
+// This is obviously not always true...
+var days_per_year = 365;
+var hours_per_year = days_per_year * 24; 
+var minutes_per_year = hours_per_year * 60;
+
+/* This is surprisingly also not always true!
+   Leap-seconds! Way worse than leap-years!
+   Little shits sneak up on you... :(
+   Note: You can't use multi-line comments in the browser console, except when pasting!
+*/
+var seconds_per_year = minutes_per_year * 60;
+var seconds_per_month = seconds_per_year / 12;
+
+console.log("There are (usually) " + seconds_per_year + " seconds in a year!");
+console.log("There is (usually) on average " + seconds_per_month + " seconds per month!");
+                    </code></pre>
+
+
+
+                    <aside class="notes">
+                    </aside>
+
+                </section>
+
+
+
+
+				<section>
+					<h3>Looping</h3>
+					<p>
+                    Let's start with an exercise, maybe you can do this already?
+					</p>
+                    <p>
+                    Let's print out a 10x10 square of X's in the console, along with the number of the row at the end of each line, like this:
+                    </p>
+
+                    <pre><code data-trim class="javascript" data-noescape>
+XXXXXXXXXX 1
+XXXXXXXXXX 2
+XXXXXXXXXX 3
+XXXXXXXXXX 4
+XXXXXXXXXX 5
+XXXXXXXXXX 6
+XXXXXXXXXX 7
+XXXXXXXXXX 8
+XXXXXXXXXX 9
+XXXXXXXXXX 10
+                    </code></pre>
+                    <p>
+                    (Doesn't look very square because the letters aren't square - not important)
+                    </p>
+
+                    <aside class="notes">
+                    </aside>
+
+                </section>
+
+
+
+
+				<section>
+					<p>
+                    My Super Professional Solution:
+					</p>
+
+                    <pre><code data-trim class="javascript" data-noescape>
+console.log('XXXXXXXXXX 1');
+console.log('XXXXXXXXXX 2');
+console.log('XXXXXXXXXX 3');
+console.log('XXXXXXXXXX 4');
+console.log('XXXXXXXXXX 5');
+console.log('XXXXXXXXXX 6');
+console.log('XXXXXXXXXX 7');
+console.log('XXXXXXXXXX 8');
+console.log('XXXXXXXXXX 9');
+console.log('XXXXXXXXXX 10');
+                    </code></pre>
+
+                    <aside class="notes">
+                    </aside>
+
+                </section>
+
+
+
+				<section>
+					<p>
+                    Let's make it simpler with a <strong>for loop</strong>
+					</p>
+
+                    <pre><code data-trim class="javascript" data-noescape>
+for (var i = 1; i <= 10; i = i + 1) {
+    console.log('XXXXXXXXXX ' + i);
+}
+                    </code></pre>
+
+                    <aside class="notes">
+                    </aside>
+
+                </section>
+
+
+
+				<section>
+					<p>
+                    What does that actually do:
+					</p>
+
+                    <pre><code data-trim class="javascript" data-noescape>
+for (INIT-STATEMENTS ; TEST-EXPRESSIONS ; UPDATE-STATEMENT) {
+    BODY-STATEMENTS
+}
+                    </code></pre>
+
+                    <pre><code data-trim class="javascript" data-noescape>
+for (var i = 1; i <= 10; i = i + 1) {
+    console.log('XXXXXXXXXX ' + i);
+}
+                    </code></pre>
+
+                    <div class="fragment"> 
+                        <p>Shorthand for:</p>
+
+                        <pre><code data-trim class="javascript" data-noescape>
+var i = 1; // pretty simple. We could have set up the variable before the for loop. Makes no difference!
+
+// CHECK THAT i is less than or equal to 10. The for loop is over if it isn't!
+
+console.log('XXXXXXXXXX ' + i);
+
+i = i + 1
+
+// START OVER from the "CHECK THAT..." line
+                        </code></pre>
+                    </div>
+
+                    <aside class="notes">
+                        Go VERY slowly here!
+                    </aside>
+
+                </section>
+
+
+				<section>
+
+
+                    <pre><code data-trim class="javascript" data-noescape>
+var i = 1;
+// is i <= 10? If not, we're done
+console.log('XXXXXXXXXX ' + i);
+i = i + 1; // i is now 2
+
+// is i <= 10? If not, we're done
+console.log('XXXXXXXXXX ' + i);
+i = i + 1; // i is now 3
+
+// is i <= 10? If not, we're done
+console.log('XXXXXXXXXX ' + i);
+i = i + 1; // i is now 4
+
+...
+                    </code></pre>
+
+                    <aside class="notes">
+                        Go VERY slowly here!
+                    </aside>
+
+                </section>
+
+
+
+
+				<section>
+					<p>
+                    Still, looks stupid to write out all those X's. Let's do this with a <strong>while</strong> loop
+					</p>
+
+                    <pre><code data-trim class="javascript" data-noescape>
+var xs = '';
+
+while (xs.length < 10) {
+    xs = xs + 'X';
+}
+
+for (var i = 1; i <= 10; i = i + 1) {
+    console.log(xs + ' ' + i);
+}
+                    </code></pre>
+
+                    <aside class="notes">
+Go through it like for the for loop!
+                    </aside>
+
+                </section>
+
+
+				<section>
+					<p>
+                    One type of loop still missing!
+					</p>
+                    <p>
+                    do - while
+                    </p>
+
+                    <pre><code data-trim class="javascript" data-noescape>
+var x = 0;
+do {
+   console.log(x);
+   x += 1;
+} while (x < 10);
+    
+                    </code></pre>
+
+                    <aside class="notes">
+                    Maybe skip.
+                    Highlight it always runs at least once.
+                    </aside>
+
+                </section>
+
+
+
+
+
+
+				<section>
+					<h3>
+                    Indentation!
+					</h3>
+
+                    <p> :-( </p>
+
+                    <pre><code data-trim class="javascript" data-noescape>
+var xs = '';
+
+while (xs.length < 10) {
+xs = xs + 'X';
+}
+
+for (var i = 1; i <= 10; i = i + 1) {
+console.log(xs + ' ' + i);
+}
+                    </code></pre>
+
+                    <aside class="notes">
+                    </aside>
+
+                </section>
+
+
+				<section>
+					<h3>
+                    Indentation!
+					</h3>
+
+                    <p> :-) </p>
+
+                    <pre><code data-trim class="javascript" data-noescape>
+var xs = '';
+
+while (xs.length < 10) {
+    xs = xs + 'X';
+}
+
+for (var i = 1; i <= 10; i = i + 1) {
+    console.log(xs + ' ' + i);
+}
+                    </code></pre>
+
+                    <aside class="notes">
+                    </aside>
+
+                </section>
+
+
+
+				<section>
+					<h3>
+                    Exercise! if / else!
+					</h3>
+
+                    <p>Let's change the fifth line to be made of Ys instead of Xs</p>
+                    <p>Try to use <strong>if / else</strong></p>
+
+
+                        <pre><code data-trim class="javascript" data-noescape>
+XXXXXXXXXX 1
+XXXXXXXXXX 2
+XXXXXXXXXX 3
+XXXXXXXXXX 4
+YYYYYYYYYY 5
+XXXXXXXXXX 6
+XXXXXXXXXX 7
+XXXXXXXXXX 8
+XXXXXXXXXX 9
+XXXXXXXXXX 10
+                    </code></pre>
+
+				</section>
+
+				<section>
+
+                        <p>My amazing solution!</p>
+                        <pre><code data-trim class="javascript" data-noescape>
+console.log('XXXXXXXXXX 1');
+console.log('XXXXXXXXXX 2');
+console.log('XXXXXXXXXX 3');
+console.log('XXXXXXXXXX 4');
+console.log('YYYYYYYYYY 5');
+console.log('XXXXXXXXXX 6');
+console.log('XXXXXXXXXX 7');
+console.log('XXXXXXXXXX 8');
+console.log('XXXXXXXXXX 9');
+console.log('XXXXXXXXXX 10');
+                    </code></pre>
+
+				</section>
+
+				<section>
+                        <pre><code data-trim class="javascript" data-noescape>
+var xs = '';
+var ys = '';
+
+while (xs.length < 10) {
+    xs = xs + 'X';
+    ys = ys + 'Y';
+}
+
+for (var i = 1; i <= 10; i = i + 1) {
+    if (i === 5) {
+        console.log(ys + ' ' + i);
+    } else {
+        console.log(xs + ' ' + i);
+    }
+}
+                    </code></pre>
+
+				</section>
+
+				<section>
+                    <p>Now, also make line 7 completely empty!</p>
+                    <p> if / else if / else</p>
+                    <pre class="fragment"><code data-trim class="javascript" data-noescape>
+var xs = '';
+var ys = '';
+
+while (xs.length < 10) {
+    xs = xs + 'X';
+    ys = ys + 'Y';
+}
+
+for (var i = 1; i <= 10; i = i + 1) {
+    if (i === 5) {
+        console.log(ys + ' ' + i);
+    } else if (i === 7) {
+        console.log("");
+    } else {
+        console.log(xs + ' ' + i);
+    }
+}
+                    </code></pre>
+
+				</section>
+
+				<section>
+                    <p>Simpler way of updating variables: += /= -=</p>
+                    <pre><code data-trim class="javascript" data-noescape>
+var xs = '';
+var ys = '';
+
+while (xs.length < 10) {
+    xs += 'X';
+    ys += 'Y';
+}
+
+for (var i = 1; i <= 10; i = i + 1) {
+    if (i === 5) {
+        console.log(ys + ' ' + i);
+    } else if (i === 7) {
+        console.log("");
+    } else {
+        console.log(xs + ' ' + i);
+    }
+}
+                    </code></pre>
+
+				</section>
+
+				<section>
+                    <h3>Functions!</h3>
+                    <p>The <strong>confirm</strong> function, return values</p>
+                    <pre><code data-trim class="javascript" data-noescape>
+console.log(confirm('What are we gonna print here?'));
+                    </code></pre>
+
+                    <aside class="notes">
+                        Highlight that we use the function as yet another expression!
+                    </aside>
+                    
+				</section>
+
+				<section>
+                    <p>Let's stop early!</p>
+                    <pre><code data-trim class="javascript" data-noescape>
+var xs = '';
+var ys = '';
+
+while (xs.length < 10) {
+    xs += 'X';
+    ys += 'Y';
+}
+
+for (var i = 1; i <= 10; i = i + 1) {
+    if (i === 5) {
+        console.log(ys + ' ' + i);
+    } else if (i === 7) {
+        console.log("");
+    } else if (i === 2) {
+        if (confirm('should we just stop now?')) {
+            break;
+        }
+    } else {
+        console.log(xs + ' ' + i);
+    }
+}
+                    </code></pre>
+
+				</section>
+
+				<section>
+                    <p>A function of our own!</p>
+                    <pre><code data-trim class="javascript" data-noescape>
+var our_function = function(the_number) {
+    return the_number * 10;
+}
+
+console.log(our_function(5));
+
+console.log(10 + our_function(5));
+                    </code></pre>
+
+				</section>
+
+				<section>
+                    <p>Let's wrap up our work in a function for reuse!</p>
+                    <pre><code data-trim class="javascript" data-noescape>
+var print_square = function(rows, columns) {
+    var xs = '';
+    var ys = '';
+
+    while (xs.length < columns) {
+        xs += 'X';
+        ys += 'Y';
+    }
+    
+    for (var i = 1; i <= rows; i = i + 1) {
+        if (i === 5) {
+            console.log(ys + ' ' + i);
+        } else if (i === 7) {
+            console.log("");
+        } else if (i === 2) {
+            if (confirm('should we just stop now?')) {
+                break;
+            }
+        } else {
+            console.log(xs + ' ' + i);
+        }
+    }
+};
+
+                    </code></pre>
+
+				</section>
+                
+				<section>
+                    <h3>Projects!</h3>
+				</section>
+
+		</div>
+
+		</div>
+
+		<script src="reveal-js/lib/js/head.min.js"></script>
+		<script src="reveal-js/js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+                //width: 1560,
+                width: 1400,
+                margin: 0,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'reveal-js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'reveal-js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal-js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'reveal-js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'reveal-js/plugin/zoom-js/zoom.js', async: true },
+					{ src: 'reveal-js/plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
+
