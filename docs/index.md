@@ -1,11 +1,5 @@
 
-<!-- * Change image every time page is refreshedg
-    * Change quote every time page is refreshed
-    * Write some javascript to create interactivity       
-    * When you click the button log to the console
-    * When you click the button log the input
-    * Create a button that when click triggers new quote
-    * Create a button that triggers new image 
+
     
             2. Eloquent JS homework - put it in slack so I can check homework
 
@@ -14,6 +8,27 @@
 
 # IXDS Web Class
 
+## Mon 19-09-2016 - Session 7
+
+Lesson plan:
+
+* Review chapter three of [Eloquent Javascript](http://eloquentjavascript.net/02_program_structure.html#program_structure)
+
+
+Or: Return to shakespeare on mars
+
+    * Change image every time page is refreshed (random image)
+    * Change quote every time page is refreshed (random quote search)
+    * Write some javascript to create interactivity
+    * When you click the button log to the console
+    * When you click the button log the input
+    * Create a button that when click triggers new quote
+    * Create a button that triggers new image
+
+#### Homework:
+
+* **Read and do exercises of chapter four** of [Eloquent Javascript](http://eloquentjavascript.net/03_functions.html)
+* TBD
 ## Mon 19-09-2016 - Session 6
 
 Lesson plan:
